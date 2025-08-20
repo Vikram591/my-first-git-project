@@ -1,3 +1,5 @@
-console.log("Vikram kumar");
-let today=new Date();
-console.log("Current Date: " + today);
+const name = "Vikram Kumar";
+const today = new Date().toLocaleDateString();
+
+console.log(`Name: ${name}`);
+console.log(`Current Date: ${today}`);
